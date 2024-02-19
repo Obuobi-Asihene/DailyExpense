@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eQllXnsisBDlaYeM3JFYcQF9M+LWUyKjkGBhalnkMLg=",
+  "Source": "DailyExpenseAPI",
+  "BasePath": "_content/DailyExpenseAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
