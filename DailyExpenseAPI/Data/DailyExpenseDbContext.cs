@@ -11,6 +11,7 @@ namespace DailyExpenseAPI.Data
         }
 
         public DbSet<Expense> Expenses { get; set; }
+        public DbSet<DailyExpense> DailyExpenses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
