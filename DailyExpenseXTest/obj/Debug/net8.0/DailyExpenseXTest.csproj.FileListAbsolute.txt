@@ -4,12 +4,6 @@ C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Da
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\DailyExpenseAPI.runtimeconfig.json
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\appsettings.json
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\nunit.engine.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\nunit.engine.api.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\nunit.engine.core.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\testcentric.engine.metadata.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\DailyExpenseAPI.exe
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\testhost.exe
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
@@ -49,8 +43,6 @@ C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Mi
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\nunit.framework.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseXTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -139,15 +139,7 @@ C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\obj\Debug\net8.0\ref\
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\nunit.engine.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\nunit.engine.api.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\nunit.engine.core.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\testcentric.engine.metadata.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\nunit.framework.dll
-C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\Yakubu\source\repos\Daily-Expense\DailyExpenseAPI\bin\Debug\net8.0\xunit.core.dll
