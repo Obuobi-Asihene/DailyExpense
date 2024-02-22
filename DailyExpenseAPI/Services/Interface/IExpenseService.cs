@@ -9,5 +9,6 @@ namespace DailyExpenseAPI.Services.Interface
         Task AddExpenseAsync(Expense expense);
         Task DeleteExpenseAsync(int id);
         Task UpdateExpenseAsync(Expense expense);
+        Task CreateDailyExpenseRecordsAsync();
     }
 }
