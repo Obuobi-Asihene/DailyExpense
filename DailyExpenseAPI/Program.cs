@@ -16,6 +16,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<DailyExpenseDbContext>(options => options.UseSqlServer(connectionString));
 builder.Services.AddScoped<IExpenseService, ExpenseService>();
 
+//add Daily record service
+builder.Services.AddSingleton<DailyRecordService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
