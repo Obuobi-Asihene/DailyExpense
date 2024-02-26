@@ -62,42 +62,5 @@ namespace DailyExpenseAPI.Services
 
             return dailyExpenses;
         }
-
-        public async Task CreateDailyExpenseRecordsAsync()
-        {
-            // Get today's date
-            DateTime today = DateTime.Today;
-
-            // Check if expense records already exist for today
-            bool recordsExist = await _context.Expenses.AnyAsync(e => e.Date.Date == today);
-
-            // If records don't exist, create a new table for today's expenses and move today's expenses to that table
-            if (!recordsExist)
-            {
-                // Create a new table with today's date
-                string tableName = $"Expenses_{today:yyyyMMdd}";
-                await _context.Database.ExecuteSqlRawAsync($@"
-                    CREATE TABLE {tableName} (
-                        Id INT IDENTITY(1,1) PRIMARY KEY,
-                        ItemName VARCHAR(MAX) NOT NULL,
-                        Price DECIMAL(18,2) NOT NULL,
-                        Date DATE NOT NULL
-                    )");
-
-                // Move today's expenses to the new table
-                await _context.Database.ExecuteSqlRawAsync($@"
-                    INSERT INTO {tableName} (ItemName, Price, Date)
-                    SELECT ItemName, Price, Date
-                    FROM Expenses
-                    WHERE Date = '{today:yyyy-MM-dd}'");
-
-                // Remove today's expenses from the main Expenses table
-                var todaysExpenses = await _context.Expenses.Where(e => e.Date.Date == today).ToListAsync();
-                _context.Expenses.RemoveRange(todaysExpenses);
-
-                // Save changes to the database
-                await _context.SaveChangesAsync();
-            }
-        }
     }
 }
