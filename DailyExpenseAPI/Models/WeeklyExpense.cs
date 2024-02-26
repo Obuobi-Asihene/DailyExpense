@@ -3,6 +3,6 @@
     public class WeeklyExpense
     {
         public int WeekNumber { get; set; }
-        public decimal TotalExpense { get; set; }
+        public decimal TotalWeeklyExpense { get; set; }
     }
 }
