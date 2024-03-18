@@ -17,7 +17,7 @@ builder.Services.AddDbContext<DailyExpenseDbContext>(options => options.UseSqlSe
 builder.Services.AddScoped<IExpenseService, ExpenseService>();
 
 //add Daily record service
-builder.Services.AddSingleton<DailyRecordService>();
+//builder.Services.AddSingleton<DailyRecordService>();
 
 var app = builder.Build();
 
