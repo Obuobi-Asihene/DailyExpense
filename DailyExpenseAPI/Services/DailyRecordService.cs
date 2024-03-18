@@ -24,7 +24,7 @@ namespace DailyExpenseAPI.Services
             });
 
             //schedule recurring job
-            RecurringJob.AddOrUpdate("CreateDailyExpenseRecords", () => _expenseService.CreateDailyExpenseRecordsAsync(), Cron.Daily(0, 0));
+            //RecurringJob.AddOrUpdate("CreateDailyExpenseRecords", () => _expenseService.CreateDailyExpenseRecordsAsync(), Cron.Daily(0, 0));
         }
     }
 }
