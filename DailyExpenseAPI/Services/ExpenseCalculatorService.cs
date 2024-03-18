@@ -36,7 +36,7 @@ namespace DailyExpenseAPI.Services
 
         private int CalculateWeekNumber(DateTime date)
         {
-            return CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(date, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+            return CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(date, CalendarWeekRule.FirstFullWeek, DayOfWeek.Sunday);
         }
 
         Task<IEnumerable<MonthlyExpense>> IExpenseCalculatorService.CalculateMonthlyExpenseAsync(IEnumerable<Expense> expenses)
