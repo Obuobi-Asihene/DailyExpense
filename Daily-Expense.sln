@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyExpenseAPI", "DailyExpenseAPI\DailyExpenseAPI.csproj", "{4ADEB991-6EC7-46D7-962E-36B7E6DE68B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyExpenseXTest", "DailyExpenseXTest\DailyExpenseXTest.csproj", "{5297B9AB-5F53-4CDA-AC06-9BC93E0ACBA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyExpenseXTest", "DailyExpenseXTest\DailyExpenseXTest.csproj", "{5297B9AB-5F53-4CDA-AC06-9BC93E0ACBA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyExpenseUI", "DailyExpenseUI\DailyExpenseUI.csproj", "{82830286-D918-4A5E-8364-DE16AF9CE2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{5297B9AB-5F53-4CDA-AC06-9BC93E0ACBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5297B9AB-5F53-4CDA-AC06-9BC93E0ACBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5297B9AB-5F53-4CDA-AC06-9BC93E0ACBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82830286-D918-4A5E-8364-DE16AF9CE2A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
